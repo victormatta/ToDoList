@@ -1,0 +1,142 @@
+.homeStyle{
+    width: 600px;
+    height: 100vh;
+    /* border: 1px solid chartreuse; */
+
+    display: flex;
+
+    margin: 50px auto;
+    border-radius: 10px;
+    flex-direction: column;
+}
+
+.homeStyle header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: -15px;
+    margin-top: 10px;
+}
+
+.homeStyle h1{
+    margin-bottom: 20px;
+    margin-left: 10px;
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.boxTask{
+    display: flex;
+    padding: 10px;
+    margin-left: 10px;
+    width: 500px;
+}
+
+.boxTask input{
+    display: flex;
+    flex: 3;
+    height: 55px;
+    background-color: rgb(19, 21, 39);
+    border:3px solid #530674;
+    border-radius: 5px;
+    border-top-right-radius: 1px;
+    border-bottom-right-radius: 1px;
+    border-right: none;
+    padding: 6px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.boxTask button{
+    display: flex;
+    flex: 1;  
+    background-image: linear-gradient(to right, #b300ff, #530674);
+    border: none;
+    border-radius: 10px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: 700;
+    transition: filter 0.2s;
+    font-size: 15px;
+}
+
+.boxTask button:hover{
+    filter: brightness(0.9);
+    cursor: pointer;
+}
+/* .homeStyle{
+    width: 600px;
+    height: 900px;
+    border: 1px solid chartreuse;
+
+    display: flex;
+
+    margin: 100px auto;
+    border-radius: 10px;
+    flex-direction: column;
+}
+
+.homeStyle header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-bottom: -15px;
+    margin-top: -300px;
+}
+
+.homeStyle h1{
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.boxTask{
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    margin-left: 100px;
+}
+
+header input{
+    display: flex;
+    flex: 3;
+    height: 45px;
+    color: #fff;
+    border-top: 3px solid #530674;
+    border-bottom: 3px solid #530674;
+    border-left: 3px solid #530674;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-right: none;
+    background-color: rgb(19, 21, 39);
+    padding-left: 10px;
+}
+
+header button{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border: none;
+    border-top-left-radius: 1px;
+    border-bottom-left-radius: 1px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+    transition: filter 0.2;
+    background-image: linear-gradient(to right, #b300ff, #530674);
+}
+
+.boxTask button:hover{
+    filter: brightness(1.5);
+    background-color: #b300ff;
+} */
